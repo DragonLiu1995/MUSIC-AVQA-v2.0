@@ -1,3 +1,5 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tackling-data-bias-in-music-avqa-crafting-a/audio-visual-question-answering-music-avqa-v2)](https://paperswithcode.com/sota/audio-visual-question-answering-music-avqa-v2?p=tackling-data-bias-in-music-avqa-crafting-a)
+
 # MUSIC-AVQA-v2.0
 Data Release for the paper [Tackling Data Bias in MUSIC-AVQA: Crafting a Balanced Dataset for Unbiased Question-Answering](https://arxiv.org/abs/2310.06238) (Accepted by WACV 2024) by Xiulong Liu, Zhikang Dong and Peng Zhang.
 
@@ -14,7 +16,7 @@ iv). `has_flip`: We flip some videos horizontally and pair them with symmetric Q
 2. The MUSIC-AVQA-v2.0 'full' balanced QA dataset is provided under `data/balance_full_set` folder. We provide the entire train and test split associated with all videos including the original MUSIC-AVQA videos and new videos collected by us. This new QA dataset not only balances the original dataset, but also corrects QA pairs with problematic annotations in the original dataset. For more details on how we balanced the original dataset, please refer to the paper.
 
 ## Benchmark results
-Feel free to submit your benchmark results at the Paper-With-Code benchmark leaderboard: https://paperswithcode.com/sota/on-music-avqa-v2-0.
+Feel free to submit your benchmark results at the Paper-With-Code benchmark leaderboard: https://paperswithcode.com/task/audio-visual-question-answering-music-avqa-v2.
 
 ## Citations
 If you use our MUSIC-AVQA-v2.0 dataset to benchmark your models, please consider citing our [paper](https://arxiv.org/abs/2310.06238) and original [MUSIC-AVQA](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_Learning_To_Answer_Questions_in_Dynamic_Audio-Visual_Scenarios_CVPR_2022_paper.pdf):
