@@ -16,4 +16,15 @@ iv). `has_flip`: We flip some videos horizontally and pair them with symmetric Q
 ## Benchmark results
 Feel free to submit your benchmark results at the Paper-With-Code benchmark leaderboard: https://paperswithcode.com/sota/on-music-avqa-v2-0.
 
-If you find our improvements on the AVQA dataset useful, please consider citing our [paper](https://arxiv.org/abs/2310.06238) and original [MUSIC-AVQA](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_Learning_To_Answer_Questions_in_Dynamic_Audio-Visual_Scenarios_CVPR_2022_paper.pdf).
+## Citations
+If you use our MUSIC-AVQA-v2.0 dataset to benchmark your models, please consider citing our [paper](https://arxiv.org/abs/2310.06238) and original [MUSIC-AVQA](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_Learning_To_Answer_Questions_in_Dynamic_Audio-Visual_Scenarios_CVPR_2022_paper.pdf):
+
+```bibtex
+@inproceedings{liu2024tackling,
+  title={Tackling data bias in music-avqa: Crafting a balanced dataset for unbiased question-answering},
+  author={Liu, Xiulong and Dong, Zhikang and Zhang, Peng},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={4478--4487},
+  year={2024}
+}
+```
